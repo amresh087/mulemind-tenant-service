@@ -1,0 +1,16 @@
+server:
+  port: 5053
+
+spring:
+  application:
+    name: mulemind-tenant-service
+
+  datasource:
+    url: jdbc:mysql://localhost:3306/mulemind_db
+    username: root
+    password: ellenverma
+
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
